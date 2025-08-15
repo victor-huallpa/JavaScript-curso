@@ -10,10 +10,10 @@ let numbres = [1, 2, 3, 4, 5, 6]
 numbres.forEach(element => console.log(element))
 
 // map
-//llega a generar un nuevo array al realizar una fucnion para cad auan de ellas
+//llega a generar un nuevo array al realizar una fucnion para cada uno de los elementos del array
 let doubled = numbres.map(element => element * 2)
 //verifica si es multiplo de 2
-let doubled1 = numbres.map(element => element %2 === 0)
+let doubled1 = numbres.map(element => element % 2 === 0)
 console.log(doubled)
 console.log(doubled1)
 
@@ -30,7 +30,7 @@ console.log(sum)
 // - Manipulacion
 
 // flat
-// de anida los arrays anidado dentro
+// deanida los arrays anidado dentro
 let nestedArray = [1, [2, [3, [4]]]]
 console.log(nestedArray)
 let flatArray = nestedArray.flat(1)
