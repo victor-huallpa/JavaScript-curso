@@ -42,7 +42,7 @@ link.removeAttribute("target")
 // - Interaccion con clases CSS
 
 const box = document.querySelector(".box")
-box.classList.add("sected")
+box.classList.add("selected")
 box.classList.remove("selected")
 box.classList.toggle("selected")
 
