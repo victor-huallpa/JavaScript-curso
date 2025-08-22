@@ -1,10 +1,10 @@
 // Manejos de apis
 
 // Metodos HTTP
-// - GET
-// - POST
-// - PUT 
-// - DELETE
+// - GET leer datos
+// - POST agregar datos
+// - PUT actualizar datos
+// - DELETE eliminar datos
 
 // Codigo de respuesta HTTP:
 // - 200 ok
