@@ -102,9 +102,9 @@
 // | elemento.closest()
 //------------------------------------
 // en caso de no encontrarlo al primer elemento hijo devuelve null
-const prinTi = document.querySelector("#principalTittle");
-const prinBody = prinTi.closest("#body");
-console.dir(prinBody);
+// const prinTi = document.querySelector("#principalTittle");
+// const prinBody = prinTi.closest("#body");
+// console.dir(prinBody);
 
 
 // RECORRIENDO EL DOM A TRAVÉS DE NODOS
@@ -120,7 +120,8 @@ console.dir(prinBody);
 // | elemento.childNodes
 //------------------------------------
 // en caso de no encontrarlo retorna un NodeList[] vacío
-
+// const contBnts = document.querySelector(".containerButtons");
+// console.log(contBnts.childNodes);
 
 
 //------------------------------------
@@ -133,7 +134,8 @@ console.dir(prinBody);
 // | elemento.parentNode
 //------------------------------------
 // en caso de no encontrarlo retorna un null
-
+// const contBnts = document.querySelector(".containerButtons");
+// console.log(contBnts.parentNode);
 
 
 
@@ -147,7 +149,8 @@ console.dir(prinBody);
 // | elemento.firstChild
 //------------------------------------
 // en caso de no encontrarlo retorna un null
-
+// const contBnts = document.querySelector(".containerButtons");
+// console.log(contBnts.firstChild);
 
 
 //------------------------------------
@@ -160,7 +163,8 @@ console.dir(prinBody);
 // | elemento.lastChild
 //------------------------------------
 // en caso de no encontrarlo retorna un null
-
+// const contBnts = document.querySelector(".containerButtons");
+// console.log(contBnts.lastChild);
 
 
 //------------------------------------
@@ -173,7 +177,8 @@ console.dir(prinBody);
 // | elemento.previousSibling
 //------------------------------------
 // en caso de no encontrarlo retorna un null
-
+// const contBnts = document.querySelector(".containerButtons");
+// console.log(contBnts.previousSibling);
 
 
 
@@ -189,3 +194,6 @@ console.dir(prinBody);
 // | elemento.nextSibling
 //------------------------------------
 // en caso de no encontrarlo retorna un null
+const contBnts = document.querySelector(".containerButtons");
+console.log(contBnts.nextSibling);
+// console.log(contBnts.nextElementSibling);
