@@ -1,4 +1,9 @@
 import { useState } from 'react'
+// import { Fruits } from './components/Map'
+import { FruitList } from './components/Map2'
+import { UserList } from './components/userList'
+import { Button, Button2, DynamicButton } from './components/Button'
+import { Counter } from './components/Counter'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -115,6 +120,13 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
+      {/* <Fruits/> */}
+      <FruitList/>
+      <UserList/>
+      <Button buttonText={'hello'}/>
+      <Button2 buttonText={'hello'}/>
+      <DynamicButton isActive={0}></DynamicButton>
+      <Counter/>
     </>
   )
 }
